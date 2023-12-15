@@ -38,7 +38,7 @@ const Todo = () => {
     }, [])
 
 
-    return (
+    return (<>  <header><h1>MMIW road map</h1><nav><a href="/">Home</a> <a href="/Map">Map</a> <a href="/About">About</a> </nav></header>
         <section className="todo-container">
             <div className="todo">
                 <h1 className="header">
@@ -77,7 +77,7 @@ const Todo = () => {
                     }
                 </div>
             </div>
-        </section>
+        </section></>
     )
 }
 

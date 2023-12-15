@@ -2,16 +2,15 @@ import { Link } from "react-router-dom";
 
 function Home() {
     return (<>
-        <header><h1>MMIW road map</h1></header>
+        <header><h1>MMIW road map</h1> <div className="nav">
+            <nav>
+                <a href="/">Home</a> <a href="/Map">Map</a> <a href="/About">About</a>
+            </nav>
+        </div></header>
         <body>
-
-            <Link to="about">Click to view our about page</Link>
-            <Link to="contact">Click to view our contact page</Link>
-
-
-
             <p>hello</p>
-        </body></>
+        </body>
+    </>
     );
 }
 
