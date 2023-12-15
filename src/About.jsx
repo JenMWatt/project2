@@ -1,10 +1,11 @@
-import React from 'react'
 
 function About() {
-    return (
-        <div>
-            <h1>This is the about page</h1>
-        </div>
+    return (<><header>  <h1>MMIW road map</h1></header>
+        <body>
+
+            <p>about</p><br></br>
+            <p>this is the about page.</p>
+        </body></>
     )
 }
 
