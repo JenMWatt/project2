@@ -10,22 +10,26 @@ li {
   list-style: none;
 }
 
-h1 {
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgb(153, 0, 0);
-  font-size: 3em;
-  background-color: rgb(141, 140, 142);
-  font-family: papyrus;
-  font-weight: 90;
-  background-color: #fff7f7f7;
-  border: rgb(149, 23, 52) 10px groove;
-  border-radius: 20px;
-  padding: 10px;
-  display: flex;
-  margin: 2px;
+h1,
+.signupbox,
+.signinbox,
+.button,
+{
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(153, 0, 0);
+font-size: 3em;
+background-color: rgb(141, 140, 142);
+font-family: papyrus;
+font-weight: 90;
+background-color: #fff7f7f7;
+border: rgb(149, 23, 52) 10px groove;
+border-radius: 20px;
+padding: 10px;
+display: flex;
+margin: 2px;
 }
 
 

@@ -6,6 +6,8 @@ import Home from "./Home";
 import Map from "./Map";
 import Contact from "./Contact";
 import About from "./About";
+import Login from './components/Signin.component';
+import SignUp from './components/Signup.component';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -30,7 +32,7 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-
+    <App />
     <RouterProvider router={router} />
 
   </StrictMode>,

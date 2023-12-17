@@ -4,16 +4,16 @@ import React, { useState, useEffect } from 'react';
 import { collection, addDoc, getDocs } from "firebase/firestore";
 
 
-const Todo = () => {
-    const [todo, setTodo] = useState("");
-    const [todos, setTodos] = useState([]);
+const Name = () => {
+    const [name, setName] = useState("");
+    const [names, setNames] = useState([]);
 
-    const addTodo = async (e) => {
+    const addName = async (e) => {
         e.preventDefault();
 
         try {
-            const docRef = await addDoc(collection(db, "todos"), {
-                todo: todo,
+            const docRef = await addDoc(collection(db, "names"), {
+                name: name,
             });
             console.log("Document written with ID: ", docRef.id);
         } catch (e) {
@@ -23,12 +23,12 @@ const Todo = () => {
 
     const fetchPost = async () => {
 
-        await getDocs(collection(db, "todos"))
+        await getDocs(collection(db, "names"))
             .then((querySnapshot) => {
                 const newData = querySnapshot.docs
                     .map((doc) => ({ ...doc.data(), id: doc.id }));
                 setTodos(newData);
-                console.log(todos, newData);
+                console.log(names, newData);
             })
 
     }
@@ -38,11 +38,12 @@ const Todo = () => {
     }, [])
 
 
-    return (<>  <header><h1>MMIW road map</h1><nav><a href="/">Home</a> <a href="/Map">Map</a> <a href="/About">About</a> </nav></header>
+    return (<>  <header><h1>MMIW road map</h1> <nav><a href="/">Home</a> <a href="/Map">Map</a> <a href="/About">About</a>  <a href="/Contact">Contact</a></nav></header>
         <section className="todo-container">
             <div className="todo">
                 <h1 className="header">
-                    Todo-App
+                    MMIW names
+
                 </h1>
 
                 <div>
@@ -50,8 +51,8 @@ const Todo = () => {
                     <div>
                         <input
                             type="text"
-                            placeholder="What do you have to do today?"
-                            onChange={(e) => setTodo(e.target.value)}
+                            placeholder="insert name?"
+                            onChange={(e) => setName(e.target.value)}
                         />
                     </div>
 
@@ -59,7 +60,7 @@ const Todo = () => {
                         <button
                             type="submit"
                             className="btn"
-                            onClick={addTodo}
+                            onClick={addName}
                         >
                             Submit
                         </button>
@@ -69,9 +70,9 @@ const Todo = () => {
 
                 <div className="todo-content">
                     {
-                        todos?.map((todo, i) => (
+                        names?.map((name, i) => (
                             <p key={i}>
-                                {todo.todo}
+                                {name.name}
                             </p>
                         ))
                     }
@@ -81,4 +82,4 @@ const Todo = () => {
     )
 }
 
-export default Todo
+export default Name
