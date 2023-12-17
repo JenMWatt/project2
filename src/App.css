@@ -14,6 +14,8 @@ h1,
 .signupbox,
 .signinbox,
 .button,
+.auth-wrap,
+.auth-inner,
 {
 height: 60px;
 display: flex;
