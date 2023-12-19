@@ -31,7 +31,7 @@ const Login = () => {
       <main>
         <section>
           <div>
-            <h2>Login</h2>
+            <h1>Login</h1>
 
             <form>
               <div>
