@@ -1,0 +1,449 @@
+[
+  {
+    "name": "Buffalo woman",
+    "age": null,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Doris Trout",
+    "age": null,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Victoria Jean Hornbrook",
+    "age": null,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Tina Michelle Fontaine",
+    "age": 15,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Tiffany Maureen Skye",
+    "age": 19,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Therena Adelin Silva",
+    "age": 35,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+
+  {
+    "name": "Teresa Cassandra Robinson",
+    "age": 11,
+    "region": "treaty no 5",
+    "status": "murdered"
+  },
+  {
+    "name": "Tessa Perry",
+    "age": 30,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Tanya Jane Nepinak",
+    "age": 31,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Tania Marsden",
+    "age": 18,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Sylvia Ann Guiboche",
+    "age": 21,
+    "region": "treaty no 1",
+    "status": "missing"
+  },
+  {
+    "name": "Sunshine April Hilda Wood",
+    "age": 16,
+    "region": "treaty no 1",
+    "status": "missing"
+  },
+  {
+    "name": "Simone Samarah Ann Sanderson",
+    "age": 23,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Shirley Enid Beardy",
+    "age": 23,
+    "region": "treaty no 5",
+    "status": "murdered"
+  },
+  {
+    "name": "Rebecca Contois",
+    "age": 24,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Rocelyn Eleanor Gabriel",
+    "age": 20,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Nicolle Katherine Hands",
+    "age": 32,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Nicole Daniels",
+    "age": 16,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Moira Louise Erb",
+    "age": 36,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Mildred Flett",
+    "age": 51,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Mary Lisa Smith",
+    "age": 25,
+    "region": "treaty no 1",
+    "status": "missing"
+  },
+  {
+    "name": "Marcedes Myran",
+    "age": 26,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Marilyn Rose Munroe",
+    "age": 41,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Marilyn Rose Daniels",
+    "age": 17,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Marie Edith Banks",
+    "age": 18,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Morgan Harris",
+    "age": 39,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Lori Lee Berens",
+    "age": 20,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Lori Ann Mancheese",
+    "age": 53,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Kathleen Leary",
+    "age": 66,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Jennifer Leigh Catcheway",
+    "age": 18,
+    "region": "treaty no 1",
+    "status": "missing"
+  },
+  {
+    "name": "Jeanenne Chantel Fontaine",
+    "age": 29,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Jamie Nora McGuire",
+    "age": 20,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Irma Murdock",
+    "age": 32,
+    "region": "treaty no 1",
+    "status": "missing"
+  },
+  {
+    "name": "Hillary Angel Wilson",
+    "age": 20,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Heather Beardy",
+    "age": 26,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Marjorie Lena Henderson",
+    "age": 52,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Heaven Traverse",
+    "age": 2,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Glenda Morriseau",
+    "age": 19,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Geraldine Leona Settee",
+    "age": 11,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Geraldine Ann Lewis Beardy",
+    "age": 29,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Frances May Ellah",
+    "age": 59,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Fonassa Lynn Louise Bruyere",
+    "age": 17,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Felicia Velvet Solomon",
+    "age": 16,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Evelyn Edith Kebalo",
+    "age": 55,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Cynthia Albena Audy",
+    "age": 27,
+    "region": "treaty no 1",
+    "status": "missing"
+  },
+  {
+    "name": "Crystal Saunders",
+    "age": 24,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Constance Lynn Cameron",
+    "age": 20,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Claudette Priscilla June Osborne",
+    "age": 21,
+    "region": "treaty no 1",
+    "status": "missing"
+  },
+  {
+    "name": "Christina Littlejohn",
+    "age": 27,
+    "region": "treaty no 1",
+    "status": "missing"
+  },
+  {
+    "name": "Cheryl Duck",
+    "age": 15,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Cherisse Diane Marie Houle",
+    "age": 17,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Cathy Lynn Williams",
+    "age": 21,
+    "region": "treaty no 1",
+    "status": "missing"
+  },
+  {
+    "name": "Brenda Jeanette Campbell",
+    "age": 51,
+    "region": "treaty no 1",
+    "status": "missing"
+  },
+  {
+    "name": "Bernice Evelyn Bottle",
+    "age": 36,
+    "region": "treaty no 1",
+    "status": "missing"
+  },
+  {
+    "name": "Babygirl",
+    "age": 0,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Audrey Mary Desjarlais",
+    "age": 52,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Angela Poorman",
+    "age": 29,
+    "region": "treaty no 1",
+    "status": "murdered"
+  },
+  {
+    "name": "Amber Rose Marie Guiboche",
+    "age": 20,
+    "region": "treaty no 1",
+    "status": "missing"
+  },
+  {
+    "name": "Amanda Sophia Bartlett",
+    "age": 17,
+    "region": "treaty no 1",
+    "status": "missing"
+  },
+
+  {
+    "name": " Diana Rattlesnake",
+    "age": 48,
+    "region": "treaty no 2",
+    "status": "murdered"
+  },
+
+  {
+    "name": " Amanda Jane Cook",
+    "age": 21,
+    "region": "treaty no 2",
+    "status": "murdered"
+  },
+  {
+    "name": "Nancy Dumas",
+    "age": 78,
+    "region": "treaty no 5",
+    "status": "missing"
+  },
+  {
+    "name": "Flora Muskego",
+    "age": 22,
+    "region": "treaty no 5",
+    "status": "murdered"
+  },
+  {
+    "name": "Melissa Ivy Chaboyer",
+    "age": 35,
+    "region": "treaty no 5",
+    "status": "murdered"
+  },
+  {
+    "name": "Marcia Viola Koostachin",
+    "age": 24,
+    "region": "treaty no 5",
+    "status": "murdered"
+  },
+  {
+    "name": "Leah Kendra Anderson",
+    "age": 15,
+    "region": "treaty no 5",
+    "status": "murdered"
+  },
+  {
+    "name": "Krystal Andrews",
+    "age": 23,
+    "region": "treaty no 5",
+    "status": "murdered"
+  },
+  {
+    "name": "Ila Oman",
+    "age": 43,
+    "region": "treaty no 5",
+    "status": "murdered"
+  },
+  {
+    "name": "Emily Norma Ballantyne",
+    "age": 24,
+    "region": "treaty no 5",
+    "status": "missing"
+  },
+  {
+    "name": "Elizabeth Mae Dorion",
+    "age": 24,
+    "region": "treaty no 5",
+    "status": "missing"
+  },
+  {
+    "name": "Dianne Mae Bignell",
+    "age": 60,
+    "region": "treaty no 5",
+    "status": "missing"
+  },
+  {
+    "name": "Betsy Rosa Owens",
+    "age": 15,
+    "region": "treaty no 5",
+    "status": "missing"
+  },
+  {
+    "name": "Barbara Keam",
+    "age": 21,
+    "region": "treaty no 5",
+    "status": "murdered"
+  },
+  {
+    "name": "Annie Yassie ",
+    "age": 13,
+    "region": "treaty no 5",
+    "status": "missing"
+  }
+]

@@ -1,17 +1,20 @@
 import { Link } from "react-router-dom";
 
-function Home() {
-    return (<>
-        <header><h1>MMIW road map</h1> <div className="nav">
-            <nav>
-                <a href="/">Home</a> <a href="/Map">Map</a> <a href="/About">About</a>
-            </nav>
-        </div></header>
-        <body>
-            <p>hello</p>
-        </body>
+function Home({ regions }) {
+  return (
+    <>
+      <ul>
+        {regions &&
+          regions.map((region) => (
+            <li key={region}>
+              <Link to="/region" state={{ region: region }}>
+                {region}
+              </Link>
+            </li>
+          ))}
+      </ul>
     </>
-    );
+  );
 }
 
 export default Home;
