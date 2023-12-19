@@ -11,7 +11,7 @@ export default function AuthProvider({ auth, setAuth, children }) {
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(firebaseAuth, (user) => {
       if (user) {
-        console.log("user", user);
+        //console.log("user", user);
         setAuth(firebaseAuth);
       } else {
         console.log("user is logged out");

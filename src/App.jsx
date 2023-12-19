@@ -8,6 +8,8 @@ import Signup from "./Signup";
 import Map from "./Map";
 import Contact from "./Contact";
 import About from "./About";
+import AddForm from "./AddForm";
+import UploadJson from "./UploadJson";
 
 function App() {
   const [auth, setAuth] = useState(null);
@@ -29,16 +31,24 @@ function App() {
           element: <Signup />,
         },
         {
-          path: "/Map",
+          path: "/map",
           element: <Map />,
         },
         {
-          path: "/Contact",
+          path: "/contact",
           element: <Contact />,
         },
         {
-          path: "/About",
+          path: "/about",
           element: <About />,
+        },
+        {
+          path: "/addform",
+          element: <AddForm />,
+        },
+        {
+          path: "/uploadjson",
+          element: <UploadJson />,
         },
       ],
     },

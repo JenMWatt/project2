@@ -9,7 +9,7 @@ export default function Navbar() {
 
   let name = null;
   if (auth && auth.currentUser) {
-    console.log(auth.currentUser);
+    //console.log(auth.currentUser);
     const { displayName, email } = auth.currentUser;
     name = displayName || email;
   }
@@ -32,13 +32,19 @@ export default function Navbar() {
       <div className="navdiv">
         <nav>
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/Map">Map</NavLink>
-          <NavLink to="/About">About</NavLink>
-        {auth && auth.currentUser ? (
-          <button onClick={handleLogout}> Logout </button>
-        ) : (
-          <button onClick={() => navigate("/login")}> Login </button>
-        )}
+          <NavLink to="/map">Map</NavLink>
+          <NavLink to="/about">About</NavLink>
+            {auth && <>
+                <NavLink to="/addform">Add</NavLink>
+                <NavLink to="/uploadjson">Upload</NavLink>
+            </>}
+          {auth && auth.currentUser ? (
+            <button onClick={handleLogout}> Logout </button>
+          ) : (
+            <>
+              <button onClick={() => navigate("/login")}> Login </button>
+            </>
+          )}
         </nav>
       </div>
       {name && <div>{name}</div>}
