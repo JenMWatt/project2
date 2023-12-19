@@ -40,7 +40,7 @@ const Signup = () => {
       <section>
         <div>
           <div>
-            <h1>Sign Up</h1>
+            <h2>Sign Up</h2>
             <form>
               <div>
                 <label htmlFor="email-address">Email address</label>
