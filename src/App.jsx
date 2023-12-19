@@ -1,10 +1,14 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { useState } from "react";
+import AuthProvider from "./AuthContext";
 import Home from "./Home";
 import Map from "./Map";
 import Contact from "./Contact";
 import About from "./About";
 
 function App() {
+  const [auth, setAuth] = useState(null);
+
   const router = createBrowserRouter([
     {
       path: "/",
@@ -23,7 +27,10 @@ function App() {
       element: <About />,
     },
   ]);
-
-  return <RouterProvider router={router} />;
+  return (
+    <AuthProvider {...{ auth, setAuth }}>
+      <RouterProvider router={router} />
+    </AuthProvider>
+  );
 }
 export default App;
