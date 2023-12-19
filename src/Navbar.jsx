@@ -7,6 +7,13 @@ export default function Navbar() {
   const navigate = useNavigate();
   const auth = useContext(AuthContext);
 
+  let name = null;
+  if (auth && auth.currentUser) {
+    console.log(auth.currentUser);
+    const { displayName, email } = auth.currentUser;
+    name = displayName || email;
+  }
+
   const handleLogout = () => {
     signOut(auth)
       .then(() => {
@@ -22,18 +29,19 @@ export default function Navbar() {
   return (
     <header>
       <h1>MMIW road map</h1>{" "}
-      <div className="nav">
+      <div className="navdiv">
         <nav>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/Map">Map</NavLink>
           <NavLink to="/About">About</NavLink>
-        </nav>
         {auth && auth.currentUser ? (
           <button onClick={handleLogout}> Logout </button>
         ) : (
           <button onClick={() => navigate("/login")}> Login </button>
         )}
+        </nav>
       </div>
+      {name && <div>{name}</div>}
     </header>
   );
 }

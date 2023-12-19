@@ -3,6 +3,8 @@ import { useState } from "react";
 import Layout from "./Layout";
 import AuthProvider from "./AuthContext";
 import Home from "./Home";
+import Login from "./Login";
+import Signup from "./Signup";
 import Map from "./Map";
 import Contact from "./Contact";
 import About from "./About";
@@ -17,6 +19,14 @@ function App() {
         {
           path: "/",
           element: <Home />,
+        },
+        {
+          path: "/login",
+          element: <Login />,
+        },
+        {
+          path: "/signup",
+          element: <Signup />,
         },
         {
           path: "/Map",
