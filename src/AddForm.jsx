@@ -37,14 +37,14 @@ export default function AddForm() {
           <input
             type="text"
             onChange={(e) => handleInput("name", e)}
-            value={data.name}
+            value={data.name | ''}
           />
         </label>
         <label>
           origin:{" "}
           <input
             type="text"
-            value={data.origin}
+            value={data.origin | ''}
             onChange={(e) => handleInput("origin", e)}
           />
         </label>
@@ -52,7 +52,7 @@ export default function AddForm() {
           found:{" "}
           <input
             type="text"
-            value={data.found}
+            value={data.found | ''}
             onChange={(e) => handleInput("found", e)}
           />
         </label>
@@ -60,7 +60,7 @@ export default function AddForm() {
           age:{" "}
           <input
             type="text"
-            value={data.age}
+            value={data.age | ''}
             onChange={(e) => handleInput("age", e)}
           />
         </label>
@@ -68,7 +68,7 @@ export default function AddForm() {
           status:{" "}
           <select
             name="status"
-            value={data.status}
+            value={data.status | ''}
             onChange={(e) => handleInput("status", e)}
           >
             <option value="missing">missing</option>

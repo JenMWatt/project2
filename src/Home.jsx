@@ -1,9 +1,18 @@
 import { Link } from "react-router-dom";
 
-function Home() {
+function Home({ regions }) {
   return (
     <>
-      <p>hello</p>
+      <ul>
+        {regions &&
+          regions.map((region) => (
+            <li key={region}>
+              <Link to="/region" state={{ region: region }}>
+                {region}
+              </Link>
+            </li>
+          ))}
+      </ul>
     </>
   );
 }
