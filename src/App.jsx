@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { useState } from "react";
+import Layout from "./Layout";
 import AuthProvider from "./AuthContext";
 import Home from "./Home";
 import Map from "./Map";
@@ -11,20 +12,25 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/",
-      element: <Home />,
-    },
-    {
-      path: "/Map",
-      element: <Map />,
-    },
-    {
-      path: "/Contact",
-      element: <Contact />,
-    },
-    {
-      path: "/About",
-      element: <About />,
+      element: <Layout />,
+      children: [
+        {
+          path: "/",
+          element: <Home />,
+        },
+        {
+          path: "/Map",
+          element: <Map />,
+        },
+        {
+          path: "/Contact",
+          element: <Contact />,
+        },
+        {
+          path: "/About",
+          element: <About />,
+        },
+      ],
     },
   ]);
   return (
